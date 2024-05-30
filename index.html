@@ -65,11 +65,11 @@
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button
-                  class="accordion-button"
+                  class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseOne"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="collapseOne"
                 >
                   <span>1. </span> Tổng các số dương trong mảng.
@@ -77,7 +77,7 @@
               </h2>
               <div
                 id="collapseOne"
-                class="accordion-collapse collapse show"
+                class="accordion-collapse collapse"
                 data-bs-parent="#accordionExample"
               >
                 <div class="option_content p-4">
@@ -109,11 +109,11 @@
                 data-bs-parent="#accordionExample"
               >
                 <div class="option_content p-4">
-                  <button type="button">Tính tổng</button>
+                  <button class="bai2" type="button">Đếm</button>
                   <div class="option_resuilt p-4 d-flex align-items-center">
                     <i class="fa-solid fa-hand-point-right fs-2 me-4"></i>
 
-                    <p id="hienthi"></p>
+                    <p id="hienthibai2"></p>
                   </div>
                 </div>
               </div>
@@ -137,11 +137,11 @@
                 data-bs-parent="#accordionExample"
               >
                 <div class="option_content p-4">
-                  <button type="button">Tính tổng</button>
+                  <button class="bai3" type="button">Tìm</button>
                   <div class="option_resuilt p-4 d-flex align-items-center">
                     <i class="fa-solid fa-hand-point-right fs-2 me-4"></i>
 
-                    <p id="hienthi"></p>
+                    <p id="hienthibai3"></p>
                   </div>
                 </div>
               </div>
@@ -149,11 +149,11 @@
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button
-                  class="accordion-button"
+                  class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseFour"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="collapseFour"
                 >
                   <span>4. </span> Tìm số dương nhỏ nhất trong mảng.
@@ -161,15 +161,15 @@
               </h2>
               <div
                 id="collapseFour"
-                class="accordion-collapse collapse show"
+                class="accordion-collapse collapse"
                 data-bs-parent="#accordionExample"
               >
                 <div class="option_content p-4">
-                  <button type="button">Tính tổng</button>
+                  <button class="bai4" type="button">Tìm</button>
                   <div class="option_resuilt p-4 d-flex align-items-center">
                     <i class="fa-solid fa-hand-point-right fs-2 me-4"></i>
 
-                    <p id="hienthi"></p>
+                    <p id="hienthibai4"></p>
                   </div>
                 </div>
               </div>
@@ -177,11 +177,11 @@
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button
-                  class="accordion-button"
+                  class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseFive"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="collapseFive"
                 >
                   <span>5. </span> Tìm số chẵn cuối cùng trong mảng. Nếu mảng
@@ -190,15 +190,15 @@
               </h2>
               <div
                 id="collapseFive"
-                class="accordion-collapse collapse show"
+                class="accordion-collapse collapse"
                 data-bs-parent="#accordionExample"
               >
                 <div class="option_content p-4">
-                  <button type="button">Tính tổng</button>
+                  <button class="bai5" type="button">Tìm</button>
                   <div class="option_resuilt p-4 d-flex align-items-center">
                     <i class="fa-solid fa-hand-point-right fs-2 me-4"></i>
 
-                    <p id="hienthi"></p>
+                    <p id="hienthibai5"></p>
                   </div>
                 </div>
               </div>
@@ -206,11 +206,11 @@
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button
-                  class="accordion-button"
+                  class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseSix"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="collapseSix"
                 >
                   <span>6. </span> Đổi chỗ 2 giá trị trong mảng theo vị trí (Cho
@@ -219,15 +219,34 @@
               </h2>
               <div
                 id="collapseSix"
-                class="accordion-collapse collapse show"
+                class="accordion-collapse collapse"
                 data-bs-parent="#accordionExample"
               >
                 <div class="option_content p-4">
-                  <button type="button">Tính tổng</button>
+                  <div class="mb-3 d-flex flex-wrap option_input">
+                    <input
+                      type="number"
+                      class="form-control"
+                      name=""
+                      id="so1"
+                      aria-describedby="helpId"
+                      placeholder="Nhập vị trí số thứ 1"
+                    />
+                    <input
+                      type="number"
+                      class="form-control"
+                      name=""
+                      id="so2"
+                      aria-describedby="helpId"
+                      placeholder="Nhập vị trí số thứ 2"
+                    />
+                    <button class="bai6">Sắp xếp</button>
+                  </div>
+
                   <div class="option_resuilt p-4 d-flex align-items-center">
                     <i class="fa-solid fa-hand-point-right fs-2 me-4"></i>
 
-                    <p id="hienthi"></p>
+                    <p id="hienthibai6"></p>
                   </div>
                 </div>
               </div>
@@ -235,11 +254,11 @@
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button
-                  class="accordion-button"
+                  class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseSeven"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="collapseSeven"
                 >
                   <span>7. </span> Sắp xếp mảng theo thứ tự tăng dần.
@@ -247,15 +266,15 @@
               </h2>
               <div
                 id="collapseSeven"
-                class="accordion-collapse collapse show"
+                class="accordion-collapse collapse"
                 data-bs-parent="#accordionExample"
               >
                 <div class="option_content p-4">
-                  <button type="button">Tính tổng</button>
+                  <button class="bai7" type="button">Sắp xếp</button>
                   <div class="option_resuilt p-4 d-flex align-items-center">
                     <i class="fa-solid fa-hand-point-right fs-2 me-4"></i>
 
-                    <p id="hienthi"></p>
+                    <p id="hienthibai7"></p>
                   </div>
                 </div>
               </div>
@@ -263,11 +282,11 @@
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button
-                  class="accordion-button"
+                  class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseEight"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="collapseEight"
                 >
                   <span>8.</span> Tìm số nguyên tố đầu tiên trong mảng. Nếu mảng
@@ -276,15 +295,15 @@
               </h2>
               <div
                 id="collapseEight"
-                class="accordion-collapse collapse show"
+                class="accordion-collapse collapse"
                 data-bs-parent="#accordionExample"
               >
                 <div class="option_content p-4">
-                  <button type="button">Tính tổng</button>
+                  <button class="bai8" type="button">Tìm</button>
                   <div class="option_resuilt p-4 d-flex align-items-center">
                     <i class="fa-solid fa-hand-point-right fs-2 me-4"></i>
 
-                    <p id="hienthi"></p>
+                    <p id="hienthibai8"></p>
                   </div>
                 </div>
               </div>
@@ -292,11 +311,11 @@
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button
-                  class="accordion-button"
+                  class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseNine"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="collapseNine"
                 >
                   <span>9.</span> Nhập thêm 1 mảng số thực, tìm xem trong mảng
@@ -305,15 +324,37 @@
               </h2>
               <div
                 id="collapseNine"
-                class="accordion-collapse collapse show"
+                class="accordion-collapse collapse"
                 data-bs-parent="#accordionExample"
               >
+                <form action="" id="option_content_bai9">
+                  <div class="d-flex my-3">
+                    <input
+                      step="0.1"
+                      type="number"
+                      class="form-control w-50 mx-5"
+                      name=""
+                      id="sothuc"
+                      aria-describedby="helpId"
+                      placeholder="Nhập số thực"
+                    />
+                    <button type="submit">Nhập</button>
+                  </div>
+                  <div
+                    class="option_resuilt p-4 mx-4 d-flex align-items-center"
+                  >
+                    <i class="fa-solid fa-hand-point-right fs-2 me-4"></i>
+
+                    <p id="hienthimang"></p>
+                  </div>
+                </form>
+
                 <div class="option_content p-4">
-                  <button type="button">Tính tổng</button>
+                  <button class="bai9" type="button">Tìm</button>
                   <div class="option_resuilt p-4 d-flex align-items-center">
                     <i class="fa-solid fa-hand-point-right fs-2 me-4"></i>
 
-                    <p id="hienthi"></p>
+                    <p id="hienthibai9"></p>
                   </div>
                 </div>
               </div>
@@ -321,11 +362,11 @@
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button
-                  class="accordion-button"
+                  class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseTen"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="collapseTen"
                 >
                   <span>10. </span> So sánh số lượng số dương và số lượng số âm
@@ -334,15 +375,15 @@
               </h2>
               <div
                 id="collapseTen"
-                class="accordion-collapse collapse show"
+                class="accordion-collapse collapse"
                 data-bs-parent="#accordionExample"
               >
                 <div class="option_content p-4">
-                  <button type="button">Tính tổng</button>
+                  <button class="bai10" type="button">So sánh</button>
                   <div class="option_resuilt p-4 d-flex align-items-center">
                     <i class="fa-solid fa-hand-point-right fs-2 me-4"></i>
 
-                    <p id="hienthi"></p>
+                    <p id="hienthibai10"></p>
                   </div>
                 </div>
               </div>

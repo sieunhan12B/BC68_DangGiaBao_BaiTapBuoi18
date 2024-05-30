@@ -56,3 +56,9 @@ button:hover {
 .option .option_content p {
   font-weight: bold;
 }
+
+.option .option_input input {
+  width: 45%;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
